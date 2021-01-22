@@ -3,7 +3,7 @@
 function kilometerToMeter(kilometer){
     var meter;
  
-    if(kilometer>0){
+    if(kilometer>=0){
       meter = kilometer *1000;
      return meter;
     }
@@ -58,7 +58,7 @@ function hotelCost(days){
        }
      }
      
-    var total = hotelCost(40);
+    var total = hotelCost(45);
     console.log(total);
 
     
@@ -70,7 +70,6 @@ function hotelCost(days){
             if(typeof friends[i]=="string"){
                 counter++;
             }
-     
         }
         if(friends.length != 0  &&  counter == friends.length){
             maximum= friends[0].length;
@@ -87,8 +86,6 @@ function hotelCost(days){
         else{
             return "Invalid Input!!!";
         }
-       
-     
      }
      var arrayName=["Abir","Kawsar","Jubayer","Rashidul","Mehidi"];
      var result = megaFriend(arrayName);
