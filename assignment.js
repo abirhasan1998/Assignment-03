@@ -62,7 +62,7 @@ function hotelCost(days){
     console.log(total);
 
     
-                        //********** 3rd problem solution is here!!!! ***************/
+                        //********** 4th problem solution is here!!!! ***************/
 
     function megaFriend(friends){
         var counter=0;
