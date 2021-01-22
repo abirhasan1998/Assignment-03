@@ -1,3 +1,5 @@
+                                //********** 1st problem solution is here!!!! ***************/
+                                
 function kilometerToMeter(kilometer){
     var meter;
  
@@ -12,7 +14,7 @@ function kilometerToMeter(kilometer){
  var result= kilometerToMeter(21);
  console.log(result);
 
- 
+                              //********** 2nd problem solution is here!!!! ***************/
 
  function budgetCalculator(watch,mobile,laptop){
     if(watch>=0 && mobile>=0 && laptop>0){
@@ -27,6 +29,7 @@ function kilometerToMeter(kilometer){
 var result= budgetCalculator(1,0,2);
 console.log(result);
 
+                            //********** 3rd problem solution is here!!!! ***************/
 
 function hotelCost(days){
     var cost=0;
@@ -59,6 +62,7 @@ function hotelCost(days){
     console.log(total);
 
     
+                        //********** 3rd problem solution is here!!!! ***************/
 
     function megaFriend(friends){
         var counter=0;
@@ -72,7 +76,7 @@ function hotelCost(days){
             maximum= friends[0].length;
             longest=friends[0];
             for(j=0; j<friends.length; j++ ){
-                if(friends[j].length<maximum){
+                if(friends[j].length>maximum){
                     maximum=friends[j].length;
                     longest=friends[j];
      
